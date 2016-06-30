@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import {CustomerCompnent} from './customer.component';
 import {CustomerService} from './customer.service';
 import { Observable } from 'rxjs/Rx';
+
+import '../db.api.js';
 @Component({
     moduleId:module.id,
     selector: 'app-customers',

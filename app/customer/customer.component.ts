@@ -10,7 +10,6 @@ export class CustomerCompnent implements OnInit {
 
     color = 'green';
 
-    
     constructor() { }
 
     ngOnInit() { }
