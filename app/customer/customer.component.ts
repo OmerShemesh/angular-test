@@ -1,7 +1,7 @@
 import { Input,Component, OnInit } from '@angular/core';
 
 @Component({
-    moduleId:__moduleName,
+    moduleId:module.id,
     selector: 'app-customer',
     templateUrl: 'customer.component.html'
 })
@@ -10,9 +10,7 @@ export class CustomerCompnent implements OnInit {
 
     color = 'green';
 
-    changeColor(){
-        this.color =  (this.color == 'green') ? 'red' : 'green';
-    }
+    
     constructor() { }
 
     ngOnInit() { }

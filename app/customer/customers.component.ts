@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {CustomerCompnent} from './customer.component';
 @Component({
-    moduleId:__moduleName,
+    moduleId:module.id,
     selector: 'app-customers',
     templateUrl: 'customers.component.html',
     directives:[CustomerCompnent]

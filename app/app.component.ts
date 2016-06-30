@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {CustomersComponent} from './customer/customers.component';
 @Component({
-    moduleId:__moduleName,
+    moduleId:module.id,
     selector: 'my-app',
     templateUrl:'app.component.html',
     directives:[CustomersComponent]
@@ -10,4 +10,9 @@ import {CustomersComponent} from './customer/customers.component';
 export class AppComponent { 
     title = 'Customer App!!!';
     name = 'Omer';
+    color = 'red';
+
+    changeColor(){
+        this.color =  (this.color == 'green') ? 'red' : 'green';
+    }
 }
