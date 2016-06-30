@@ -2,4 +2,11 @@
 <div [style.color]="color">
     Hello {{name}}
 </div>
+<input type="text" [(ngModel)]="name">
 <button (click)="changeColor()">Change Color</button>
+
+<ul>
+    <li *ngFor="#customer of customers">
+        <my-customer [customer]="customer"></my-customer>
+    </li>
+</ul>
