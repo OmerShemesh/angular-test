@@ -8,7 +8,7 @@ import {CustomersComponent} from './customer/customers.component';
    
 })
 export class AppComponent { 
-    title = 'Customer App!!!';
+    title = 'Customer App';
     name = 'Omer';
     color = 'red';
 
