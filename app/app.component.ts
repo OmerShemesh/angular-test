@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {CustomerCompnent} from './/customer/customer.component';
+import {CustomerCompnent} from './customer/customer.component';
 @Component({
     selector: 'my-app',
     templateUrl:'app/app.component.html',
